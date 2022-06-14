@@ -1,4 +1,4 @@
-from random import  randint
+from random import randint
 palpite = int(input('Digite seu palpite: '))
 tentativas = 1
 sorteado = randint(0, 10)
