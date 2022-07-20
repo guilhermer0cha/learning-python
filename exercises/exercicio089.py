@@ -11,5 +11,5 @@ while True:
         break
 print(f'{"No.":<4}{"NOME":<10}{"MÉDIA":>8}')
 print('-'*30)
-for a, p in enumerate(boletim):
-    print(f'{a:<4}{p[0]:<10}{p[2]:>8}')
+for i, p in enumerate(boletim):
+    print(f'{i:<4}{p[0]:<10}{p[2]:>8}')
