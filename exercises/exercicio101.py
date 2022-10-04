@@ -1,4 +1,4 @@
-def voto(votos):
+def voto(ano):
     idade = 2022 - anoNascimento
     if idade >= 18:
         print(f'Com {idade} anos: VOTO OBRIGATÓRIO.')
